@@ -31,13 +31,13 @@ int main(){
         }
         switch(cur){
             case 'A':
-                fetchContainer(1, 0);
+                fetchContainer(0, 0);
                 break;
             case 'B':
-                fetchContainer(2, 0);
+                fetchContainer(1, 0);
                 break;
             case 'C':
-                fetchContainer(3, 0);
+                fetchContainer(2, 0);
                 break;
             case 'T':
                 fetchTotal(0, 0);
